@@ -26,10 +26,10 @@ public class ImageSanitizer {
 
     static {
         faceClassifier = new CascadeClassifier();
-        faceClassifier.load("C:\\Users\\om\\Desktop\\github_repos\\EyeTracking\\src\\opencv_java\\haarcascade_frontalface_default.xml");
+        faceClassifier.load("C:/Users/om/Desktop/personal_exp/eyetracking/EyeTracking/src/opencv_java/haarcascade_frontalface_default.xml");
     
         eyeClassifier = new CascadeClassifier();
-        eyeClassifier.load("C:\\Users\\om\\Desktop\\github_repos\\EyeTracking\\src\\opencv_java\\haarcascade_eye_tree_eyeglasses.xml");
+        eyeClassifier.load("C:/Users/om/Desktop/personal_exp/eyetracking/EyeTracking/src/opencv_java/haarcascade_eye_tree_eyeglasses.xml");
     }
 
     static void convertFrame(Mat frame){
